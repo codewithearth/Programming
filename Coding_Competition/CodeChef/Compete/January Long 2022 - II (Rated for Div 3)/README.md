@@ -1,1 +1,1 @@
-This is January Long 2022 - II coding competition.
+The code above is from January Long 2022 - II coding competition.
