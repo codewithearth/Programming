@@ -17,11 +17,15 @@ func MoveZeros(arr []int) []int { //Move all zeros to the end
 	for _, i := range arr { //iterate over the slice
 
 		if i == 0 { //if if interger is zero then add it to zeros slice
+
 			zeros = append(zeros, 0)
 			continue
+
+		} else { // append add non-zero integer to the result
+
+			result = append(result, i)
 		}
-		//append add non-zero integer to the result
-		result = append(result, i)
+
 	}
 
 	//finally we have result slice of non-zeros
