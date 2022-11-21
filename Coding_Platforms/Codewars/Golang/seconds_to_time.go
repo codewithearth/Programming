@@ -11,9 +11,9 @@ func main() {
 	fmt.Println(FormatDuration(1))
 }
 
-func FormatDuration(seconds int64) string { //convertseconds to accurate time
+func FormatDuration(seconds int64) string { //convert seconds to accurate time
 
-	//create slice for store days, hours, minutes and seconds
+	//create slice for store years, days, hours, minutes and seconds
 	//create variable to store result in string format
 	data := []string{}
 	result := ""
