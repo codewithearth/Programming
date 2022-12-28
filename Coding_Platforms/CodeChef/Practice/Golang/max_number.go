@@ -12,7 +12,6 @@ func main() {
 	var value = []int{}
 	fmt.Scan(&testcase)
 	for i := 0; i < testcase; i++ {
-		ans := 1
 		fmt.Scan(&size)
 		fmt.Scan(&data)
 		for _, j := range data {
@@ -29,8 +28,8 @@ func CheckMax(list []int) int {
 
 	result := 1
 
-	for _,k := range list{
-		if 
+	for _, k := range list {
+		fmt.Println(k)
 	}
 	return result
 }
