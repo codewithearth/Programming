@@ -1,0 +1,3 @@
+Code : /workspaces/Programming/Languages/Golang/Programming_with_Google_Go_Specialization/Getting_Started_with_Go/Screenshots /assignment_1_code.png
+Output: /workspaces/Programming/Languages/Golang/Programming_with_Google_Go_Specialization/Getting_Started_with_Go/Screenshots /assignment_1_output_1.png
+/workspaces/Programming/Languages/Golang/Programming_with_Google_Go_Specialization/Getting_Started_with_Go/Screenshots /assignment_1_output_2.png
