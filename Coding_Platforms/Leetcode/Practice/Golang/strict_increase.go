@@ -15,7 +15,7 @@ func canBeIncreasing(nums []int) bool { //check increasing number
 		return true
 
 	} else {
-		for i, _ := range nums { // range over slice 
+		for i := range nums { // range over slice 
 
 			//copy slice into another slice and remove one number every time and check increase order
 			if copy(nums1, nums);check_increase(append(nums1[:i], nums1[i+1:]...)) {
