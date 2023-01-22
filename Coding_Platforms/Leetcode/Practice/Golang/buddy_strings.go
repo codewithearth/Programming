@@ -10,7 +10,7 @@ func main() {
 func buddyStrings(s string, goal string) bool {
 
 	var num string
-	for idx, i := range s {
+	for idx, num := range s {
 
 
 		if s[idx] != goal[idx] {
