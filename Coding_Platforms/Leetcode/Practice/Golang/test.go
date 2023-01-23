@@ -1,10 +1,15 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+)
 
 func main() {
 
-	a := "aaa"
+	for _ = range time {
 
-	fmt.Println()
+		fmt.Println("Hello")
+	}
+
 }
